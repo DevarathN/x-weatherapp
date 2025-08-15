@@ -10,6 +10,7 @@ const LandingPage = () => {
     setLoading(true);
     try {
       if (!selectedCity) {
+        setLoading(false);
         alert("Enter a city name");
         return;
       }
