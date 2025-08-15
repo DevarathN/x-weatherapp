@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin: 20px;
+  padding: 20px;
 }
 .search-container {
   display: flex;
